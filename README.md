@@ -1,4 +1,4 @@
-# 🍫 Factory Chocolate Counting System
+#  Factory Counting System MVP
 
 A real-time computer vision system for counting chocolates and bottles on conveyor belts using YOLO object detection and tracking.
 
@@ -17,7 +17,7 @@ A real-time computer vision system for counting chocolates and bottles on convey
 
 ##  Overview
 
-This project implements an automated counting system for factory conveyor belt. Using YOLO11 object detection and tracking, currently the system counts chocolates and bottles as they cross a user-defined line in real-time.in future carious other classes will be added 
+This project implements an automated counting system for factory conveyor belt. Using YOLO11 object detection and tracking, currently the system counts chocolates and bottles as they cross a user-defined line in real-time.in future carious other classes will be added .Trained model is not added in this repo . One can use their own trained model change the model paths in pharms.yaml file .
 
 ### Key Capabilities
 
@@ -209,21 +209,25 @@ Color coding:
 - 🟡 Yellow: Just crossed (flash effect)
 - 🟢 Green: Already counted
 
+## sample outputs use case 1 : cloclate factory counting 
+
+![Demo GIF](objectdetection_tracking_counting_MVP\outputs\counting_output-ezgif.com-video-to-gif-converter.gif)
+
+## case 2 : bottle factory counting 
+
+![Demo GIF](objectdetection_tracking_counting_MVP\outputs\counting_output_bottle-ezgif.com-video-to-gif-converter.gif)
+
 ## 🔍 Dataset Information
 
-### Dataset Version 3 (My-First-Project-3)
+### Dataset Version 3 
 - **Classes**: 2 (bottle, chocolate)
 - **Total images**: 892
 - **Format**: YOLO11
 - **Source**: Roboflow factory conveyor belt footage
 
-### Dataset Version 2 (My-First-Project-2)
-- **Classes**: 1 (chocolate)
-- **Total images**: 652
-- **Format**: YOLO8
-- **Source**: Roboflow
 
-Both datasets validated with matching image/label pairs.
+ datasets validated with matching image/label pairs.
+ the dataset can be access via this url : https://universe.roboflow.com/monitorshrimps/industrial_dataset-xzhwj
 
 
 ## 📝 License
