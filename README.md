@@ -211,11 +211,11 @@ Color coding:
 
 ## sample outputs use case 1 : cloclate factory counting 
 
-![](outputs\counting_output-ezgif.com-video-to-gif-converter.gif)
+![](outputs/counting_output-ezgif.com-video-to-gif-converter.gif)
 
 ## case 2 : bottle factory counting 
 
-![](outputs\counting_output_bottle-ezgif.com-video-to-gif-converter.gif)
+![](outputs/counting_output_bottle-ezgif.com-video-to-gif-converter.gif)
 
 ## 🔍 Dataset Information
 
