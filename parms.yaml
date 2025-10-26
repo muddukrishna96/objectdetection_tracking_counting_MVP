@@ -1,0 +1,17 @@
+model_path: factory_chocolat_counting\yolo11n.pt   
+data_yaml_path: factory_chocolat_counting\My-First-Project-3\data.yaml
+pretrained: True
+device: 0
+seed: 0
+imgsz: 640
+batch: 4 
+epochs: 100
+cos_lr: True
+optimizer: RMSProp # other choices=['SGD', 'Adam', 'AdamW', 'RMSProp']
+workers: 4
+lr0: 0.001  # learning rate 
+experiment_name: "choclate_identification_yolo_11"
+mlflow_tracking_uri: "http://12.0.6.1:7000"  # replace with your MLflow server URI
+
+Inference_model_path: weights\best.pt
+classes_to_track : [0, 1]
