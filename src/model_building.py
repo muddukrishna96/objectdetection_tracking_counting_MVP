@@ -8,7 +8,7 @@ and registration using **MLflow** for experiment tracking.
 
 It guides you through:
 - Loading engineered features
-- Training and evaluating ML models
+- Training and evaluating yolo models
 - Logging metrics and artifacts with MLflow
 - Registering the trained model for versioned deployment
 """
