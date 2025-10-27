@@ -120,7 +120,7 @@ video_writer = cv2.VideoWriter(
 )
 
 # -------------------------------
-# Step 4: results visualisation 
+# Step 4:Helper functions for results visualisation 
 # -------------------------------
 def draw_neon_corner_box(frame, x1, y1, x2, y2, color=(0, 255, 255), thickness=2, corner_len=15, glow_intensity=0.4):
     """
