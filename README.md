@@ -127,10 +127,10 @@ The system uses line-crossing detection:
 
 ### Train Your Own Model
 
-1. **Configure parameters** in `parms.yaml`:
+1. **Configure parameters** in `parms.yaml`, please modify the parameters according to your project setup:
 ```yaml
 model_path: yolo11n.pt
-data_yaml_path: My-First-Project-3/data.yaml
+data_yaml_path:Project-3/data.yaml
 epochs: 100
 batch: 4
 imgsz: 640
@@ -209,11 +209,11 @@ Color coding:
 - 🟡 Yellow: Just crossed (flash effect)
 - 🟢 Green: Already counted
 
-## sample outputs use case 1 : cloclate factory counting 
+## sample outputs use case 1: cloclate factory counting 
 
 ![](outputs/counting_output-ezgif.com-video-to-gif-converter.gif)
 
-## case 2 : bottle factory counting 
+## case 2: bottle factory counting 
 
 ![](outputs/counting_output_bottle-ezgif.com-video-to-gif-converter.gif)
 
@@ -227,7 +227,7 @@ Color coding:
 
 
  datasets validated with matching image/label pairs.
- the dataset can be access via this url : https://universe.roboflow.com/monitorshrimps/industrial_dataset-xzhwj
+ The dataset can be accessed via this url : https://universe.roboflow.com/monitorshrimps/industrial_dataset-xzhwj
 
 
 ## 📝 License
