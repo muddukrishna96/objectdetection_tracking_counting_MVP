@@ -3,10 +3,6 @@
  DATA INGESTION INSTRUCTION
 ===========================
 
-This script serves as a **template** for the Data Ingestion stage of your ML pipeline.
-It provides **guidelines and placeholders** to help you write your own logic
-for loading, preprocessing, and saving data in a reproducible way.
-
 You can customize this file based on your dataset source, structure, and format.
 """
 
@@ -184,8 +180,8 @@ def main():
     try:
         dataset_path = load_data(
                                     
-                                    workspace="monitorshrimps",
-                                    project_name="my-first-project-xi846",
+                                    workspace="enter your workspace",
+                                    project_name="-project-xi846",
                                     version_number=3,
                                     dataset_format="yolov11")
         
