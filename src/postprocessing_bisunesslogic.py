@@ -12,7 +12,7 @@ import os
 # Step 1: Choose Input Source
 # -------------------------------
 
-# Get directory where this script is located
+# Get the directory where this script is located
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print(BASE_DIR)
 
@@ -107,7 +107,7 @@ if len(region_points) not in [2, 4]:
 print(f"\n Region points selected: {region_points}")
 
 # -------------------------------
-# Step 3: Initialize Video Writer
+# Step 3: Initialise Video Writer
 # -------------------------------
 w, h, fps = (int(cap.get(x)) for x in (
     cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS
@@ -120,7 +120,7 @@ video_writer = cv2.VideoWriter(
 )
 
 # -------------------------------
-# Step 4: Initialize ObjectCounter
+# Step 4: results visualisation 
 # -------------------------------
 def draw_neon_corner_box(frame, x1, y1, x2, y2, color=(0, 255, 255), thickness=2, corner_len=15, glow_intensity=0.4):
     """
